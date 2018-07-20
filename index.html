@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Template</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <section id="userInfo">
+            <input name="player" placeholder="player name" />
+            <button id="startGame">Start Game</button>
+        </section>
+        <section id="gameStart" class="hide">
+            <header>
+                <div>Time: <span id="timer">30</span></div>
+                <div>Highest Score: <span id="highestScore">0</span></div>
+            </header>
+            <progress id="progressBar" value="0" max="0"></progress>
+            <div id="card">
+                <div id="topCard">
+                    Blue
+                </div>
+                <div id="bottomCard">
+                    Red
+                </div>
+            </div>
+            <div id="answer">
+                <button id="notMatched">No</button>
+                <button id="matched">Yes</button>
+            </div>
+        </section>
+        <section id="gameOver" class="hide">
+            <div id="gameOverText">Game Over</div>
+            <div id="gameOverScore">You scored <span id="score">0</span></div>
+            <button id="startAgain">Start Again</button>
+        </section>
+        <script src="game.js"></script>
+    </body>
+</html>
+</script>

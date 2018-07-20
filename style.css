@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 10%;
+    width: 100%;
+    margin: 10px;
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+#topCard {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+#bottomCard {
+    font-size: 28px;
+    margin-bottom: 100px;
+}
+
+#answer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#gameOverText {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: red;
+}
+
+#gameOverScore {
+    margin-bottom: 20px;
+}
+
+#userInfo {
+    margin-top: 100px;
+    text-align: center;
+    margin: 100px;
+}
+
+#gameOver {
+    margin-top: 100px;
+    text-align: center;
+    margin: 100px;
+}
+
+#card {
+    align-items: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hide {
+    display: none;
+}
