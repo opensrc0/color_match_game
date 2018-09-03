@@ -1,7 +1,7 @@
 let config = {};
 let globalV = {};
 
-config.timerStart = 3400;
+config.timerStart = 10;
 config.color = ['red', 'blue', 'green', 'yellow', 'white', 'black', 'darkBlue'];
 
 globalV.topRandomColor = '';
